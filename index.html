@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expo Vinicola - Jujuy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#evento">Evento</a></li>
+                <li><a href="#registro">Registrate</a></li>
+            </ul>
+                <!-- Logo  -->
+            <div class="logo">
+                <a href="#home"><img src="assets/logo-1.jpg" alt=""></a>
+            </div>
+        </nav>
+    </header>
+    <!-- Desktop1 -->
+    <main>
+        <!-- Home -->
+        <section id="home">
+            <div class="container">
+                <div class="home-text">
+                    <h1><span class="title-one">Expo Vinicola 2022</span></h1>
+                    <h2><span class="title-two">Juntos por un Jujuy mejor</span></h2>
+                    <p class="large">En el mes de Septiembre se llevará a cabo la 2da edicion de la Expo Vinicola mas grande del norte argentino.
+                    Tendremos la fortuna de recibir la visita de expertos, dando lugar a conocer a nuestros
+                        emprendedores.
+                    </p>
+                </div>
+                <div class="home-img">
+                    <img src="assets/expovinos-1.jpg" alt="">
+                </div>
+            </div> 
+        </section>
+        <!-- Evento -->
+        <section id="evento">
+            <div class="container">
+                <div class="event-video">
+                    <iframe width="626" height="350" src="https://www.youtube.com/embed/N09zv4rXev0" title="De altura: vinos orgánicos de Jujuy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="event-desc-video">
+                    <p class="large">Este cortometraje refleja todo lo que se logro a base de esfuerzo de pequeños emprendedeores
+                        en nuestro hermosa quebrada de Humahuaca.
+                    </p>
+                    <p class="large">En este evento celebraremos todos juntos. </p>
+                </div>
+            </div>
+        </section>
+            <!-- Nosotros -->
+        <section id="nosotros">
+            <div class="container">
+                <div class="nos-text">
+                    <h1>Nosotros</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, ea?</p>
+                </div>
+                <div class="nos-img">
+                    <img src="assets/img-nos.jpg" alt="">
+                </div>
+            </div>
+        </section>
+            <!-- Registro -->
+        <section id="registro">
+            <div class="container">
+                <div class="form-registro">
+                    <form id="formulario" class="form-contacto" >
+                        <div class="form-group">
+                            <label for="comercio">Comercio</label>
+                            <input type="text" id="comercio" autocomplete="off" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="titular">Titular</label>
+                            <input type="text" id="titular" autocomplete="off" class="form-control">
+                        </div>    
+                        <div class="form-group">
+                            <label for="celular">Celular</label>
+                            <input type="text" id="celular" autocomplete="off"class="form-control">
+                        </div>    
+                        <button id="send" class="btn">Enviar</button>
+                    </form>
+                </div>
+                <div class="form-text-registro">
+                    <h2>Participá del evento. 
+                        <span>Te esperamos!</span>
+                    </h2>
+                </div>
+            </div>
+        </section>   
+        <!-- Clima --> 
+        <section id="clima">
+            <div class="clima-json">
+                <h1>Aqui esta el clima del evento!</h1>
+                <div id="city">Ciudad</div>
+                <div><span id="temp">Temperatura</span>°C</div>
+                <div id="weather">Descripcion</div>
+                <div id="date">Fecha</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="img-wpp">
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="assets/img-wpp-1.png" alt=""></a>
+        </div>
+
+    </footer>    
+    <script src="main.js"></script>
+</body>
+
+</html>
